@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #FFC300;
+}
+.container{
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 80px 50px;
+    width: 90vmin;
+}
+.search-area{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.search-area .input-word{
+    padding: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #ae9cff;
+    font-size: 16px;
+}
